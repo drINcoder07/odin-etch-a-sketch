@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font: inherit;
+  text-align: center;
+}
+
+.fs-large {
+  font-size: 2rem;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #237;
+}
+
