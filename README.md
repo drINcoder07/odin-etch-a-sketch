@@ -1,2 +1,5 @@
-# odin-etch-a-sketch
-Project: Etch A Sketch
+# Project: Etch A Sketch
+
+## INTRODUCTION
+
+## PROGRESS
