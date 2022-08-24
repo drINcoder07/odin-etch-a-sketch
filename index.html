@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="index.js" defer></script>
   <title>Etch A Sketch</title>
 </head>
 <body>
@@ -15,25 +14,27 @@
 
   <div id="sketchContainer" class="container"></div>
 
-  <div>
+  <div class="inputValue">
     <label for="squaresPerSide">SQUARES PER SIDE: </label>
-    <input type="range" name="squares" value="50" id="squaresPerSide" min="1" max="100" step="1">
+    <input type="range" name="squares" id="squaresPerSide" min="1" max="100"  class="getInput">
   </div>
 
-  <div>
+  <div class="setColor">
     <div>
       <label for="color">COLOR:</label>
-      <input type="color" name="color" id="color">
+      <input type="color" name="color" id="color" class="getInput">
     </div>
     <div>
-      <button type="button">RANDOM COLOR</button>
+      <button type="button" value="0, 0, 0">RANDOM COLOR</button>
     </div>
   </div>
 
   <div>
     <button id="eraser">ERASE</button>
-    <button type="reset">CLEAR</button>
+    <button type="reset" id="reset">CLEAR</button>
   </div>
+
+  <script src="index.js" defer></script>
 
   
 </body>
